@@ -8,7 +8,7 @@ To be able to start working, you need to start with one of the templates. Then y
 ## Getting the example.
 
 1. Create a Github Account if you haven't already.
-2. Go to [this github repo](https://github.com/barebones-ubg/HTML-Plain) and fork it onto your account. Make sure you don't change anything about the fork.
+2. Go to [this github repo](https://github.com/barebones-ubg/HTML-Plain) and fork it onto your account. Make sure you don't change anything about the fork. (Please star the repo tour forking too please, it helps alot.)
 3. Go to [the codespaces page](https://github.com/codespaces) and press "New codespace".
 4. In the little menu, go to select a repo > The repo you just forked. Then click Create.
 5. Wait for the thing to load. 
