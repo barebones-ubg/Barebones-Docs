@@ -4,9 +4,13 @@ description: How to add games to your site.
 ---
 
 To be able to add games, all you really need to do is just deploy your own copy of the Barebones-UBG game source. From there you can be able to add all the games that are available.
-
+## Preperations
+You will need:
+- A Github Account
+- The Vercel Account from getting started.
 ## Setting Up The Game Source
-1. Using your Github account, sign up for Vercel.
+1. Make sure your codespace and your vercel account are open.
+
 2. Go [here](https://github.com/barebones-ubg/Barebones-Game-Source) and fork it. Make sure your fork has the same name.
 3. Go back to your vercel dashboard and press "Add New" > "Project"
 ![New Project](../../../assets/addgames/addnew.png)
@@ -20,7 +24,9 @@ Now it is time to actually add the games.
 
 ## Add the games to your site.
 1. Make sure the codespace from Getting Started is open and the preview is running by making sure you type ``` npx servor ``` into the terminal.
-2. Go to the fork of the game-source. From there, in the README, choose a game you want to add. Keep that idea in your head. Make sure to read what the filename is.
+
+2. Go to the fork of the game-source. From there, in the README, choose a game you want to add. For this guide, I will be using slope plus, but don't do that since its already included in the template from earlier. Keep that idea in your head. Make sure to read what the filename is.
+
 3. Go to https://<"your deployed link">/games/<"filename of the game"> so for example for slope its https://example.com/games/slope.html and copy that
 4. Go to your codespace. Open the games.html file. From there, type this out:
  - Make sure the filename is something short you can rememeber, like for slope, "slope.html"
@@ -67,7 +73,7 @@ Now it is time to actually add the games.
 </body>
 </html>
 ```
-7. Now test. Go to your codespace link from earlier, then click on the games button, then, the game you added.
+7. Now test. Go to your codespace preview link from earlier, then click on the games button, then, the game you added.
 
-## Congrats! + Next Steps
-You now know how to add games, and you have a working site now!
+## Extra Notes
+You now know how to add games. You can keep adding games, and if you've added all of them (somehow), wait for the next batch. I release new batches every Saturday unless there are obfuscations with my schedule.

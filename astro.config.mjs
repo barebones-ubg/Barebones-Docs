@@ -9,6 +9,10 @@ export default defineConfig({
 			title: 'Barebones UBG Docs',
 			favicon: 'public/favicon.png',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/barebones-ubg/Barebones-Docs' }],
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/styles.css',
+			  ],
 			sidebar: [
 				{
 					label: 'Basic Guides',
