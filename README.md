@@ -14,4 +14,4 @@ I am well aware that the vast amount of people using this will mainly be childre
 ## Links
 This only exists so that I can remember to update them. These are the ONLY official docs links.
 - https://barebones-docs.surge.sh
-- https://barbones-docs.surge.sh
+- https://barbones-docs.surge.sh 

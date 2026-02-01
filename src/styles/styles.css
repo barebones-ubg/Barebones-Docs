@@ -1,5 +1,7 @@
 /* Dark mode colors. */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 :root {
+	font-family: Outfit;
 	--sl-color-accent-low: #002935;
 	--sl-color-accent: #007592;
 	--sl-color-accent-high: #91d4ed;
@@ -14,6 +16,7 @@
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
+	font-family: Outfit;
 	--sl-color-accent-low: #afe0f3;
 	--sl-color-accent: #00566c;
 	--sl-color-accent-high: #003848;
