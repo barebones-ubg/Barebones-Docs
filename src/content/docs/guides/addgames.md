@@ -74,6 +74,6 @@ Now it is time to actually add the games.
 </html>
 ```
 7. Now test. Go to your codespace preview link from earlier, then click on the games button, then, the game you added.
-
+8. Make sure you save your changes by going to the fork icon in the codespace, typing something in the field and pressing "Commit".
 ## Extra Notes
 You now know how to add games. You can keep adding games, and if you've added all of them (somehow), wait for the next batch. I release new batches every Saturday unless there are obfuscations with my schedule.

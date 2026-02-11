@@ -1,28 +1,45 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'Barebones UBG Docs',
-			favicon: 'public/favicon.png',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/barebones-ubg/Barebones-Docs' }],
-			customCss: [
-				// Relative path to your custom CSS file
-				'./src/styles/styles.css',
-			  ],
-			sidebar: [
-				{
-					label: 'Basic Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Getting Started', slug: 'guides/getstarted' },
-						{ label: 'How to Add Games', slug: 'guides/addgames' }
-					],
-				},
-			],
-		}),
-	],
+  integrations: [
+    starlight({
+      title: "Barebones UBG Docs",
+      favicon: "public/favicon.png",
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/barebones-ubg/Barebones-Docs",
+        },
+      ],
+      customCss: [
+        // Relative path to your custom CSS file
+        "./src/styles/styles.css",
+      ],
+      sidebar: [
+        {
+          label: "Basic Guides",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Getting Started", slug: "guides/getstarted" },
+            { label: "How to Add Games", slug: "guides/addgames" },
+            { label: "Styling your UBG site", slug: "guides/styling" },
+          ],
+        },
+        {
+          label: "Advanced Guides",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            {
+              label: "Nothing Yet..",
+              slug: "guides/getstarted",
+            },
+          ],
+        },
+      ],
+    }),
+  ],
 });
